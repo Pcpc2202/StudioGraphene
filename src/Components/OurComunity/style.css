@@ -1,0 +1,23 @@
+.comunity {
+  display: flex;
+  flex-direction: column;
+}
+img {
+  width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+.comunity-odd {
+  height: 10vh;
+  display: flex;
+  margin-left: 50%;
+  margin-right: 10%;
+  flex-direction: row;
+}
+.comunity-even {
+  height: 10vh;
+  display: flex;
+  flex-direction: row-reverse;
+  margin-left: 10%;
+  margin-right: 50%;
+}
